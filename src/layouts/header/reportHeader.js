@@ -2,10 +2,10 @@ import React from 'react';
 import { Button } from 'antd';
 
 
-const Template = () => (
-  <div className="Template">
+const Reportheader = () => (
+  <div className="Reportheader">
     <Button type="primary">Button</Button>
   </div>
 );
 
-export default Template;
+export default Reportheader;

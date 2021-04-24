@@ -1,11 +1,11 @@
-import logo from './logo.svg';
+import React from 'react';
+import { Button } from 'antd';
 import './App.css';
-import TrialBalance from './reports/trialBalance';
 
-function App() {
-  return (
-    <TrialBalance />
-  );
-}
+const App = () => (
+  <div className="App">
+    <Button type="primary">Button</Button>
+  </div>
+);
 
 export default App;
