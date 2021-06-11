@@ -5,6 +5,7 @@ import {financialPositionData, financiaPositionColumns} from './constants';
 import { Row, Col } from 'antd';
 
 
+
   const rowSelection = {
     onChange: (selectedRowKeys, selectedRows) => {
       console.log(`selectedRowKeys: ${selectedRowKeys}`, 'selectedRows: ', selectedRows);
@@ -22,8 +23,7 @@ const  financialPosition=()=> {
 
   return (
     <div>
-
-    <Row>
+ <Row>
       <Col span={24} >
           <h4 className="chasefu" 
           style={{textAlign:'center', fontSize:30, fontWeight:'bold',color:'blue'}}> CHASEFU TOWN COUNCIL
@@ -42,6 +42,8 @@ const  financialPosition=()=> {
     />
 
     </Row>
+   
+      
   </div>
 
   )
